@@ -1,0 +1,103 @@
+.web-pay__inner-left-img {   //общее для всех
+  position: absolute;
+  top: 0;
+  // display: none;
+}
+
+.goods__inner-form {
+  position: relative;
+  display: none;
+    padding: 70px 30px 20px 43px;
+}
+
+.goods__inner-form-inner {
+  position: absolute;
+  z-index: 100;
+}
+
+.goods__inner-form-title {
+  margin-bottom: 23px;
+    font-family: 'montserrat-regular', sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    span {
+      display: inline-block;
+      color: rgba(103, 141, 237, 1);
+      font-family: 'avenir_next', sans-serif;
+      font-size: 16px;
+      transform: translateY(-3px);
+    }
+}
+
+.goods__inner-form-titleItem {
+  margin-bottom: 10px;
+}
+
+.checkBox {
+  display: inline-block;
+  margin-right: 7px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid rgba(196, 197, 201, 1);
+  cursor: pointer;
+  background-image: none;
+}
+
+.js-checkBox-check {
+  background-image: url('imgs/check.svg');
+  background-position: center;
+}
+
+
+.checkAll {
+  display: inline-block;
+  font-family: 'avenir_next', sans-serif;
+  font-size: 9px;
+  color: rgba(196, 197, 201, 1);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.goods__inner-form-list {
+  .goods__inner-form-item:last-child{
+    margin-bottom: 50px;
+  }
+}
+
+.goods__inner-form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 233px;
+  height: 36px;
+  border-radius: 3px;
+  padding-left: 12px;
+  font-family: 'avenir_next', sans-serif;
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+.checkbox-item {
+  margin-right: 20px;
+}
+
+.letter-sign {
+  margin-right: 20px;
+  width: 10px;
+  height: 12px;
+  fill: #678DED;
+  &:hover {
+    fill: $orange_color;
+  }
+}
+
+.goods__inner-form-img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 63px;
+  width: 144px;
+  height: 144px;
+}
+
+
+

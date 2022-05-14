@@ -1,0 +1,150 @@
+.clients {
+  background-image: url('imgs/Clients.webp');
+  padding-top: 230px;
+}
+
+.clients__inner {
+  position: relative;
+  width: 100%;
+  min-height: 885px;
+}
+
+.clients__inner-title {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 160px;
+    margin-bottom: 142px;
+    font-family: 'montserrat-regular',
+    sans-serif;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.clients__inner-list {
+  display: flex;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.clients__inner-item {
+  width: 25%;
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 180px;
+  color: rgba(256, 256, 256, 0.1);
+  text-align: right;
+}
+
+
+
+@media(max-width: 1600px){
+  .slide {
+    width: 200px;
+    height: 200px;
+  }
+
+  .slide1,
+  .slide2,
+  .slide3,
+  .slide4 {
+    background-size: 80%;
+  }
+
+  .slider__item {
+    flex-wrap: wrap;
+  }
+
+  .clients__inner-item {
+    font-size: 140px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .slide {
+    width: 120px;
+    height: 120px;
+  }
+
+  .slider  {
+    min-height: auto;
+  }
+
+  .clients__inner-item {
+    font-size: 90px;
+  }
+
+  .clients__inner {
+    min-height: 600px;
+  }
+
+}
+
+
+@media(max-width: 640px) {
+
+  .clients {
+    padding-top: 63px;
+  }
+
+  .clients__inner {
+    min-height: 550px;
+  }
+
+  .clients__inner-title {
+    margin-bottom: 0;
+    max-height: 64px;
+    font-size: 21px;
+  }
+
+  .clients__inner-list {
+    display: none;
+  }
+
+  .slider {
+    top: 62px;
+  }
+
+  .slider__control-box {
+    width: 135px;
+    height: 50px;
+  }
+
+  .slider__control {
+    width: 50px;
+    height: 100%;
+  }
+    
+  .slider__items {
+    margin-bottom: 54px;
+  }
+
+  .slider__item  {
+    justify-content: center;
+  }
+
+  .slide1920 {
+    display: none;
+  }
+
+  .slide {
+    width: 350px;
+    height: 350px;
+  }
+
+}
+
+@media(max-width:480px) {
+
+    .slide {
+      width: 210px;
+      height: 210px;
+    }
+
+    .clients__inner {
+      min-height: 495px;
+    }
+
+}

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  transition-property: color;
+  // transition-duration: 0.4s;
+}
+
+svg {
+  transition-property: fill;
+  // transition-duration: 0.4s;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+//-------------------------------
+
+.container {
+  max-width: 1920px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #171718;
+}
+

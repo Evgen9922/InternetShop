@@ -13,4 +13,4 @@
 - javaScript
 - Gulp
 
-работу можно посмотреть здесь: https://www.sitescontrol.pp.ua/site7/index.html
+
